@@ -1,0 +1,33 @@
+HELP.md
+target/
+blogBackend/.mvn/wrapper/maven-wrapper.jar
+!blogBackend/**/src/main/**/target/
+!blogBackend/**/src/test/**/target/
+
+### STS ###
+blogBackend/.blogBackendapt_generated
+blogBackend/.classpath
+blogBackend/.factorypath
+blogBackend/.project
+blogBackend/.settings
+blogBackend/.springBeans
+blogBackend/.sts4-cache
+
+### IntelliJ IDEA ###
+blogBackend/.idea
+blogBackend/*.iws
+blogBackend/*.iml
+blogBackend/*.ipr
+
+### NetBeans ###
+blogBackend/nbproject/private/
+blogBackend/nbbuild/
+blogBackend/dist/
+blogBackend/nbdist/
+blogBackend/.nb-gradle/
+blogBackend/build/
+!blogBackend/**/src/main/**/build/
+!blogBackend/**/src/test/**/build/
+
+### VS Code ###
+blogBackend/.vscode/
