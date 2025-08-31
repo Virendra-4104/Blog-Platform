@@ -2,7 +2,9 @@ package com.blogWeb.blogBackend.mapper;
 
 import com.blogWeb.blogBackend.dto.UserDTO;
 import com.blogWeb.blogBackend.entity.User;
+import lombok.Data;
 
+@Data
 public class UserMapper {
     public static UserDTO toDTO(User user){
         UserDTO dto = new UserDTO();

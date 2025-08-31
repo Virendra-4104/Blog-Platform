@@ -7,9 +7,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
 public class CommentMapper {
+
     public  static CommentDTO toDTO(Comment comment){
         CommentDTO dto = new CommentDTO();
         dto.setId(comment.getId());

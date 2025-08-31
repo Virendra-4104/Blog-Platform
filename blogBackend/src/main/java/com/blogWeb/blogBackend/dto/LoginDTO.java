@@ -3,13 +3,12 @@ package com.blogWeb.blogBackend.dto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.NonNull;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
-public class UserRegisterDTO {
-    private String name;
-    private String username;
-    private String email;
+@AllArgsConstructor
+public class LoginDTO {
+    private String identifier;
     private String password;
 }

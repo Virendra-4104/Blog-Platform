@@ -27,4 +27,5 @@ public class Post {
     private LocalDateTime updatedAt;
 
     private List<String> likes = new ArrayList<>();
+    private List<String> commentsId = new ArrayList<>();
 }

@@ -2,7 +2,9 @@ package com.blogWeb.blogBackend.mapper;
 
 import com.blogWeb.blogBackend.dto.PostDTO;
 import com.blogWeb.blogBackend.entity.Post;
+import lombok.Data;
 
+@Data
 public class PostMapper {
     public static PostDTO toDTO(Post post){
         PostDTO dto = new PostDTO();
